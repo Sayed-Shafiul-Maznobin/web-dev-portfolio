@@ -118,6 +118,10 @@ nav ul {
 
 }
 
+hr {
+    width: 500px;
+}
+
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -152,4 +156,127 @@ item-description {
 main section {
     margin-top: 130px;
     margin-bottom: 130px;
+}
+
+
+.resume-main {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.resume-title {
+    display: flex;
+    margin: 90px;
+}
+
+
+.download {
+    text-align: center;
+}
+
+.ttl1 {
+    margin:
+        100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer{
+    padding: 130px;
+    display: flex;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+    display: block;
+} */
+
+
+
+
+/* Existing CSS */
+
+footer {
+    padding: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+    /* display: block; - This is the default for a div, so it's often not needed unless overriding something */
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    /* Adjust as needed for spacing between icons */
+    margin-top: 20px;
+    /* Space above icons */
+}
+
+.social-icons img {
+    width: 24px;
+    /* Adjust icon size as needed */
+    height: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Space between form fields */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    min-height: 120px;
+    /* Minimum height for the message area */
+    resize: vertical;
+    /* Allow vertical resizing */
+}
+
+.section-title {
+    font-size: 30px;
+    /* Example size */
+    margin-bottom: 20px;
+    /* Space below title */
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+    /* Example background color */
+}
+
+
+/* New .primary-button CSS */
+.primary-button {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
 }
